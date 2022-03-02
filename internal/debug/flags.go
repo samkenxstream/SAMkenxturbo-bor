@@ -273,7 +273,7 @@ func StartPProf(address string, withMetrics bool) {
 	// Hook go-metrics into expvar on any /debug/metrics request, load all vars
 	// from the registry into expvar, and execute regular expvar handler.
 	if withMetrics {
-		http.HandleFunc("/debug/metrics/prometheus", func(w http.ResponseWriter, req *http.Request) {
+		http.HandleFunc("/debug/metrics", func(w http.ResponseWriter, req *http.Request) {
 			metrics2.WritePrometheus(w, true)
 		})
 	}
