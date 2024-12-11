@@ -53,11 +53,11 @@ require (
 	github.com/wcharczuk/go-chart/v2 v2.1.0
 	github.com/xsleonard/go-merkle v1.1.0
 	go.uber.org/atomic v1.9.0
-	golang.org/x/crypto v0.1.0
-	golang.org/x/sync v0.0.0-20220722155255-886fb9371eb4
-	golang.org/x/sys v0.1.0
+	golang.org/x/crypto v0.31.0
+	golang.org/x/sync v0.10.0
+	golang.org/x/sys v0.28.0
 	golang.org/x/time v0.0.0-20210723032227-1f47c861a9ac
-	golang.org/x/tools v0.1.12
+	golang.org/x/tools v0.21.1-0.20240508182429-e35e4ccd0d2d
 	google.golang.org/grpc v1.41.0
 	google.golang.org/grpc/cmd/protoc-gen-go-grpc v1.1.0
 	google.golang.org/protobuf v1.27.1
